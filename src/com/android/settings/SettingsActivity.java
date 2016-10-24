@@ -81,6 +81,7 @@ import com.android.settings.deviceinfo.PublicVolumeSettings;
 import com.android.settings.deviceinfo.SimStatus;
 import com.android.settings.deviceinfo.Status;
 import com.android.settings.deviceinfo.StorageSettings;
+import com.android.settings.advanced.AdvancedSettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.fuelgauge.BatterySaverSettings;
 import com.android.settings.fuelgauge.PowerUsageDetail;
@@ -280,6 +281,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             HomeSettings.class.getName(),
             DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
+            AdvancedSettings.class.getName(),
             ManageApplications.class.getName(),
             NotificationApps.class.getName(),
             ManageAssist.class.getName(),
@@ -547,6 +549,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         mIsShowingDashboard = className.equals(Settings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName())
                 || className.equals(Settings.DeviceSettings.class.getName())
+                || className.equals(Settings.AdvancedSettings.class.getName())
                 || className.equals(Settings.PersonalSettings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName());
 
