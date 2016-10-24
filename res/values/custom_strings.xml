@@ -27,8 +27,8 @@
     <string name="advanced_settings_title">Advanced</string>
     <string name="button_settings">Buttons</string>
     <string name="omni_battery_light_settings">Battery charging</string>
-    <string name="omni_notification_light_settings">Applications LED notifications</string>
-    <string name="omni_leds">LED Lights</string>
+    <string name="omni_notification_light_settings">Applications notifications</string>
+    <string name="omni_leds">LED lights</string>
 
     <!-- Setting checkbox summary for displaying USB debugging notification -->
     <string name="adb_notify">USB debugging notify</string>
