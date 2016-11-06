@@ -384,4 +384,9 @@
     <string name="heads_up_snooze_10min">10 минут</string>
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
+     
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">Тип скриншота</string>
+    <string name="screenshot_type_fullscreen">Скриншот всей области</string>
+    <string name="screenshot_type_partial">Выделение нужной области для сохранения на скриншоте</string>
 </resources>
